@@ -4,17 +4,35 @@
   <title>WEB1 - Welcome</title>
   <meta charset="utf-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7371GWRCC8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7371GWRCC8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-7371GWRCC8');
-</script>
+    gtag('config', 'G-7371GWRCC8');
+  </script>
+  <style>
+    a {
+      color:black;
+      text-decoration:none;
+    }
+    h1{
+      font-size:45px;
+      text-align:center;
+    }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
+  <!-- CSS탄생 전에는 html 자체적으로 font태그를 사용했다!
+  <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+  <ol>
+    <li><a href="1.html"><font color="red">포리</font></a></li>
+    <li><a href="2.html"><font color="red">포메라니안</font></a></li>
+    <li><a href="3.html"><font color="red">사진</font></a></li>
+  </ol>
+  -->
+  <h1><a href="index.html" style="color:red;text-decoration:underline">WEB</a></h1>
   <ol>
     <li><a href="1.html">포리</a></li>
     <li><a href="2.html">포메라니안</a></li>
